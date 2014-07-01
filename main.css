@@ -5,7 +5,7 @@
 	position: relative;
 }
 
-.outer-shell, .inner-shell, .clock-screen, .clock-text, .am-freq-text, .fm-freq-text, .pm-text, .auto-text, .pm-dot, .auto-dot {
+.outer-shell, .inner-shell, .clock-screen, .clock-text, .am-freq-text, .fm-freq-text, .pm-text, .auto-text, .pm-dot, .auto-dot, .set-alarm-button {
 	display: block;
 	position: absolute;
 	margin: auto;
@@ -63,13 +63,14 @@
 	/*display: inline-block;*/
 	width: 60%;
 	top: 82%;
-	
+	letter-spacing: 1.3px;
 	font-size: 1.5em;
 }
 
 .pm-text {
 	width: 70%;
 	top: 22%;
+
 }
 
 .auto-text {
@@ -89,3 +90,8 @@
 	font-size: 2em;
 }
 
+.set-alarm-button {
+	height: 5%;
+	top: 85%;
+	left: 85%;
+}
